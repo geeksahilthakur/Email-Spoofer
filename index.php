@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $sender_name = $_POST['sender_name'];
-    $sender_email = $_POST['sender_email'];
-    $receiver_email = $_POST['receiver_email'];
+    $sender_name = $_POST['sahil'];
+    $sender_email = $_POST['itssahilthakur@isro.gov.in'];
+    $receiver_email = $_POST['itssahilthakur@gmail.com'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
